@@ -26,17 +26,20 @@ nav {
 .logo {
     width: 150px;
     cursor: pointer;
+    margin-top: 15px;
 }
-nav button {
+.button {
     border: 0;
     outline: 0;
     background: #db0001;
     color: #fff;
     padding: 7px 20px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 4px;
     margin-left: 10px;
     cursor: pointer;
+    margin-bottom: 16px;
+    text-decoration: none;
 }
 .header-content {
     position: absolute;
@@ -192,7 +195,6 @@ input[type="radio"]{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
-    
 }
 .footer .col {
     flex-basis: 25%;
@@ -209,7 +211,6 @@ input[type="radio"]{
 .footer .row {
     align-items: flex-start;
     padding: 10px 0;
-    
 }
 .copyright-text {
     font-size: 14px;
