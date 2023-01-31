@@ -539,6 +539,14 @@
       margin-top: 5px;
       margin-left: 2px;
     }
+    .faq li h2 {
+      font-size: 23px;
+      font-weight: 400;
+    }
+    .faq li p {
+      font-size: 22px;
+      font-weight: 100;
+    }
     
   /* extra small device */
   @media (max-width: 320px) {
@@ -582,7 +590,7 @@
     .download-text p {
       padding: 5px;
     }
-    .faq li h2 {
+    .faq li {
       font-size: 20px;
     }
   }
