@@ -486,20 +486,34 @@
   }
   
   @media (max-width: 375px) {
-    .inner-title {
-      font-size: 1rem;
-    }
-    .inner-text {
-      font-size: 1rem;
-    }
-  
     /* header */
-  
     .header .inner-title {
-      width: 90%;
+      width: 95%;
     }
     .header .inner-text {
-      width: 90%;
+      width: 94%;
+    }
+    .logo {
+      padding: 1rem 0.8rem;
+    }
+    .inner-title h1 {
+      font-size: 33px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .inner-text p {
+      font-size: 23px;
+      margin-top: 10px;
+    }
+    .email-form p {
+      text-align: center;
+      font-size: 20px;
+    }
+    .email-form {
+      margin-top: 50px;
+    }
+    .email-form .btn-lg {
+      border-radius: 5px;
     }
     /* showcase */
     .case1 .showcase-animation {
@@ -516,5 +530,59 @@
     .downloading {
       top: 180px;
       left: 66px;
+    }
+    .download-text h1 {
+      font-size: 15px;
+      margin-left: 1px;
+    }
+    .download-text p {
+      margin-top: 5px;
+      margin-left: 2px;
+    }
+    
+  /* extra small device */
+  @media (max-width: 320px) {
+    .logo {
+      padding: 1rem 0.8rem;
+    }
+    .inner-title h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .email-form p {
+      text-align: center;
+      font-size: 17px;
+    }
+    .email-form {
+      margin-top: 35px;
+    }
+    .email-form .btn-lg {
+      border-radius: 5px;
+    }
+    /* showcase */
+    .case1 .showcase-animation {
+      width: 210px;
+      left: 40px;
+      top: 46px;
+    }
+  
+    .case3 .showcase-animation {
+      width: 180px;
+      left: 50px;
+      top: -46px;
+    }
+    .downloading {
+      top: 180px;
+      left: 60px;
+    }
+    .download-text h1 {
+      font-size: 11px;
+      padding: 3px;
+    }
+    .download-text p {
+      padding: 5px;
+    }
+    .faq li h2 {
+      font-size: 20px;
     }
   }
