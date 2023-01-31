@@ -18,17 +18,27 @@
         line-height: 45px;
     }
     .header-content h4 {
-        margin-bottom: 45px;
+        margin-bottom: 40px;
+        font-size: 20px;
     }
     .email-signup button {
-        font-size: 12px;
+        font-size: 15px;
         padding: 10px 15px;
     }
     .text-col, img-col {
         flex-basis: 100%;
     }
+    .text-col {
+        text-align: center;
+        justify-content: center;
+    }
+    .img-col {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
     .features h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .features p {
         font-size: 15px;
