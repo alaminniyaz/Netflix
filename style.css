@@ -67,7 +67,9 @@
     font-size: 1.5rem;
     width: 90%;
   }
-  
+  .email-form p {
+    margin-top: 25px;
+  }
   .email-form {
     margin: 1rem;
   }
@@ -76,7 +78,7 @@
     display: flex;
     height: 80%;
   }
-  
+
   .email-form .get-started > input {
     border-radius: 2px 0 0 2px;
     border: 3px solid #333;
@@ -125,7 +127,7 @@
   
   
   .header .inner-container {
-    margin-top: 10rem;
+    margin-top: 20rem;
   }
   
   .header .inner-title {
@@ -142,7 +144,10 @@
     text-align: center;
   }
   
-  
+  .faq {
+    user-select: none;
+  }
+
   .showcase {
     border-bottom: 10px solid #333;
     padding: 2rem 0;
@@ -199,6 +204,7 @@
   }
   
   .download-text > p {
+    margin-top: 10px;
     color: #0066e3;
   }
   
@@ -242,16 +248,20 @@
     background: #333;
     cursor: pointer;
   }
-  
+  .faq li::after {
+    transition: all 0.5s linear;
+  }
   .faq li.show i {
     transform: rotate(45deg);
+    transition: all 0.3s linear;
   }
-  
+
   .faq li > p {
     padding: 1rem 0;
     border-top: 1px solid #000;
     padding: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 25px;
+    font-weight: 200;
     position: absolute;
     max-height: 0;
     visibility: hidden;
