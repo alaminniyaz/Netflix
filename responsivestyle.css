@@ -1,13 +1,12 @@
 @media only screen and (max-width:600px) {
     .logo{
-        width: 115px;
-        margin-top: 12px;
+        width: 125px;
+        padding: 0px 5px;
     }
     .button {
-        padding: 5px 10px;
+        padding: 9px 9px;
         font-size: 16px;
         position: relative;
-        left: 15px;
     }
     .header-content {
         position: unset;
@@ -65,4 +64,13 @@
     .row .img4 {
         width: 115%;
     }
+    footer {
+        width: 80%;
+        position: relative;
+        margin: 30px auto;
+      }
+      footer .links ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+      }
 }

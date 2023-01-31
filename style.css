@@ -14,31 +14,30 @@ body {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(images/header-bg.png);
     background-size: cover;
     background-position: center;
-    padding: 10px 8%;
+    padding: 10px 3%;
     position: relative;
 }
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .logo {
-    width: 150px;
+    width: 180px;
     cursor: pointer;
-    margin-top: 15px;
+    padding: 10px 5px;
+    margin-top: 10px;
 }
 .button {
     border: 0;
     outline: 0;
     background: #db0001;
     color: #fff;
-    padding: 7px 20px;
-    font-size: 15px;
-    border-radius: 4px;
-    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 16px;
     text-decoration: none;
 }
 .header-content {
@@ -186,34 +185,28 @@ input[type="radio"]{
 }
 
 /* foooter section */
-.footer {
-    padding: 50px 15px 10px;
-    border-top: 6px solid #333;
-    color: #777;
-}
-.footer h2 {
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-.footer .col {
-    flex-basis: 25%;
-    flex-grow: 1;
+footer {
+    color: #757575;
+    margin: 0% 20%;
+    width: 70%;
+  }
+  
+  footer .links > * {
     margin-bottom: 20px;
-}
-.footer .col a {
-    display: block;
+  }
+  
+  footer p {
+    margin-bottom: 2rem;
+  }
+  
+  footer .links ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    list-style: none;
+  }
+
+  footer .links ul li a {
     text-decoration: none;
-    color: #777;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-.footer .row {
-    align-items: flex-start;
-    padding: 10px 0;
-}
-.copyright-text {
-    font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
+    color: #757575;
+  }
