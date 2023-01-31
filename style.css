@@ -289,45 +289,6 @@
     grid-gap: 1rem;
   }
   
-  footer .language {
-    padding: 1rem 0;
-    font-weight: 700;
-    cursor: pointer;
-    width: 14%;
-    border: 1px solid #333;
-    border-radius: 0.2rem;
-    font-family: inherit;
-    padding: 1rem;
-    position: relative;
-  }
-  
-  footer .language:active {
-    outline: 1px solid #fff;
-    box-shadow: 0 0 0 2px #fff;
-  }
-  
-  footer .dropdown-list {
-    width: 100%;
-  }
-  
-  footer .dropdown-list ul {
-    display: none;
-    position: absolute;
-    background: #000;
-    border: 1px solid #333;
-    top: 58px;
-    width: 100%;
-    left: 0;
-  }
-  
-  footer .dropdown-list li {
-    margin: 0.5rem 0;
-  }
-  
-  footer .dropdown-list ul.show {
-    display: block;
-  }
-  
   /* large-screen*/
   
   @media (max-width: 950px) {
@@ -409,7 +370,7 @@
   
     /* faq list */
     .faq ul {
-      width: 90%;
+      width: 95%;
       margin: auto;
     }
   
@@ -424,10 +385,7 @@
     footer {
       width: 90%;
     }
-  
-    footer .language {
-      width: 20%;
-    }
+
   }
   
   /* tablet-screen */
@@ -460,7 +418,7 @@
     }
   }
   
-  /* median-screen*/
+  /* medium-screen*/
   @media (max-width: 550px) {
     /* nav logo */
   
@@ -546,14 +504,14 @@
     /* showcase */
     .case1 .showcase-animation {
       width: 250px;
-      left: 45px;
+      left: 44px;
       top: 50px;
     }
   
     .case3 .showcase-animation {
       width: 210px;
-      left: 60px;
-      top: -25px;
+      left: 56px;
+      top: -30px;
     }
     .downloading {
       top: 180px;
