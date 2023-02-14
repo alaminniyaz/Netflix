@@ -69,29 +69,52 @@
   }
   .email-form p {
     margin-top: 25px;
+    font-size: 20px;
   }
   .email-form {
     margin: 1rem;
   }
   .email-form .get-started {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     display: flex;
-    height: 80%;
+    height: 100%;
   }
-
   .email-form .get-started > input {
     border-radius: 2px 0 0 2px;
     border: 3px solid #333;
-    padding-left: 10px;
+    background: #000;
     font-size: 1.1rem;
     outline: none;
     flex: 1;
+    padding: 20px 15px;
+    transition: 0.5s;
   }
-  
+  .get-started {
+    position: relative;
+  }
+  .get-started span {
+    position: absolute;
+    padding: 25px 15px;
+    pointer-events: none;
+    font-size: 1rem;
+    color: #7d7979;
+    transition: 0.5s;
+  }
+  .get-started input:valid ~ span,
+  .get-started input:focus ~ span {
+    transform: translateX(5px) translateY(-10px);
+    padding: 0px 10px;
+    color: whitesmoke;
+    font-size: 1em;
+  }
+
+  .get-started input:focus {
+    color:azure
+  }
   .email-form .btn-lg {
     border-radius: 0 2px 2px 0;
   }
-  
+
   .header {
     height: 110vh;
     position: relative;
@@ -302,8 +325,6 @@
   /* large-screen*/
   
   @media (max-width: 950px) {
-    /* global setting */
-  
     /* button */
     .btn-lg {
       padding: 10px 12.5px;
@@ -327,6 +348,13 @@
     }
   
     /* email form */
+    .email-form p {
+      text-align: center;
+    }
+    .get-started span {
+      padding: 20px 15px;
+    }
+
     .email-form .get-started {
       padding-top: 1rem;
       display: flex;
@@ -435,7 +463,11 @@
     .logo > img {
       width: 100px;
     }
-  
+
+    .email-form p {
+      text-align: center;
+    }
+
     /* showcase*/
     .inner-text .get-started > input {
       padding: 0.5rem;
